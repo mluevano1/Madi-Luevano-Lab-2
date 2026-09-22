@@ -1,13 +1,16 @@
-Import random
+import random
 
-game_number = random randiant (1,10)
-print (game_number)
+game_number = random.randint (1,10)
+while (True):
 
-guess=int(input ("Enter a number between 1 and 10"))
+    print (game_number)
 
-If guess>game_number:
-    print ("lower")
-elif guess<game_number:
-    print ("higher!")
-else:
-    print ("Yay! You win")
+    guess=int(input ("Enter a number between 1 and 10"))
+
+
+    if guess>game_number:
+     print ("lower")
+    elif guess<game_number:
+        print ("higher!")
+    else:
+        print ("You win!")
